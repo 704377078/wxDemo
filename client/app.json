@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/my/scrollIndex",
+    "pages/addCgi/addCgi",
+    "pages/my/formPage",
+    "pages/my/nodePage",
+    "pages/my/iconPage",
+    "pages/my/navPage",
+    "pages/form/btn",
+    "pages/form/inputAll",
+    "pages/form/radios",
+    "pages/form/picker",
+    "pages/form/switchOn",
+    "pages/direction/dicIndex",
+    "pages/direction/mapPage",
+    "pages/direction/popPage",
+    "pages/direction/subunit",
+    "pages/direction/music"
+  ],
+  "window": {
+    "backgroundColor": "#71a552",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ef5545",
+    "navigationBarTitleText": "Wafer Quick Start",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#fff",
+    "backgroundColor": "#ef5545",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/my/scrollIndex",
+        "text": "当前页面",
+        "iconPath": "images/bar1.jpg",
+        "selectedIconPath": "images/bar2.jpg"
+      },
+      {
+        "pagePath": "pages/direction/music",
+        "text": "听听音乐",
+        "iconPath": "images/bar1.jpg",
+        "selectedIconPath": "images/bar2.jpg"
+      },
+      {
+        "pagePath": "pages/direction/mapPage",
+        "text": "看看地图",
+        "iconPath": "images/bar1.jpg",
+        "selectedIconPath": "images/bar2.jpg"
+      }
+    ]
+  },
+  "debug": true
+}

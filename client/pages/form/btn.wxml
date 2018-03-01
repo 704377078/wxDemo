@@ -1,0 +1,65 @@
+<!--pages/form/btn.wxml-->
+<view style='background-color:#e3e89e;height:100%;position:absolute;top:0;right:0;bottom:0;left:0;'>
+  <view>
+    <view hover-class="list-title-hover">
+      不同大小（size ）
+    </view>
+    <view>
+      <button type='primary' size='default'>default</button>
+    </view>
+    <view>
+      <button type='primary' size='mini'>mini</button>
+    </view>
+  </view>
+  <view>
+    <view hover-class="list-title-hover">
+      不同类型（type ）
+    </view>
+    <view>
+      <button type='primary'>default</button>
+    </view>
+    <view>
+      <button type='default'>mini</button>
+    </view>
+    <view>
+      <button type='warn'>mini</button>
+    </view>
+  </view>
+  <view>
+    <view hover-class="list-title-hover">
+      名称前是否带 loading 图标
+    </view>
+    <view>
+      <button type='primary' loading="true">true</button>
+    </view>
+    <view>
+      <button type='primary'>false</button>
+    </view>
+  </view>
+  <view>
+    <view hover-class="list-title-hover">
+      是否禁用
+    </view>
+    <view>
+      <button type='primary' disabled='true'>true</button>
+    </view>
+    <view>
+      <button type='primary'>false</button>
+    </view>
+  </view>
+  <view>
+    <view>
+      按钮是否镂空，背景色透明
+    </view>
+    <view>
+      <button type='primary' plain='true'>true</button>
+    </view>
+    <view>
+      <button type='primary'>false</button>
+    </view>
+  </view>
+  <view>以上是按钮样式，其他在功能上的使用请参考
+    https://mp.weixin.qq.com/debug/wxadoc/
+    dev/component/button.html
+  </view>
+</view>

@@ -1,0 +1,34 @@
+<!--pages/direction/subunit.wxml-->
+<view>
+  微信运动信息：{{runinfo}}
+</view>
+<view>
+  网络类型:{{netInfo}}
+</view>
+<view>
+  <camera device-position="back" flash="off" binderror="error" style="width: 100%; height: 200px;"></camera>
+  <button bindtap="takePhoto">拍照</button>
+  <image mode="widthFix" src="{{src}}"></image>
+</view>
+<view>
+  <button bindtap='takephone'>打个电话</button>
+</view>
+<view>
+  <button bindtap='takecode'>先扫个二维码吧</button>
+</view>
+<view>
+  <button bindtap='takeBluetooth'>试试打开蓝牙（可能失效）</button>
+</view>
+<view>
+  <button bindtap='takeBeaconDiscovery'>搜索附近的iBeacon设备（可能失效）</button>
+</view>
+
+<view>
+  <button bindtap='takevibrate'>震动一下手机</button>
+</view>
+<view>
+  <button bindtap='takeCaptureScreen'>点击截个屏（可能失效）</button>
+</view>
+<view>
+  <button bindtap='takeBrightness'>设置小程序屏幕亮度为最亮</button>
+</view>

@@ -1,0 +1,118 @@
+<!--pages/my/nodePage.wxml-->
+<view class='title'>
+这里是微信小程序支持的节点和属性
+</view>
+<table class="table">
+  <tr>
+    <th>节点</th>
+    <th>属性</th>
+  </tr>
+  <tr>
+    <td class="blue">a</td>
+    <td></td>
+  </tr>
+   <tr>
+    <td class="blue">abbr</td>
+    <td></td>
+  </tr>
+   <tr>
+    <td class="blue">b</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td class="blue">blockquote</td>
+    <td></td>
+  </tr>
+   <tr>
+    <td class="blue">br</td>
+    <td></td>
+  </tr>
+   <tr>
+    <td class="blue">code</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td class="blue">col</td>
+    <td>span，width</td>
+  </tr>
+   <tr>
+    <td class="blue">colgroup</td>
+    <td>span，width</td>
+  </tr>
+  <tr>
+    <td class="blue">del</td>
+    <td></td>
+  </tr>
+   <tr>
+    <td class="blue">div</td>
+    <td></td>
+  </tr>
+   <tr>
+    <td class="blue">em</td>
+    <td></td>
+  </tr>
+   <tr>
+    <td class="blue">fieldset</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td class="blue">h1等标题</td>
+    <td></td>
+  </tr>
+   <tr>
+    <td class="blue">hr</td>
+    <td></td>
+  </tr>
+   <tr>
+    <td class="blue">i</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td class="blue">img</td>
+    <td>alt，src，height，width</td>
+  </tr>
+   <tr>
+    <td class="blue">ins</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td class="blue">label</td>
+    <td></td>
+  </tr>
+   <tr>
+    <td class="blue">legend</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td class="blue">ul，li，ol，dd,dl,dt</td>
+    <td>ol:start，type</td>
+  </tr>
+   <tr>
+    <td class="blue">p</td>
+    <td></td>
+  </tr>
+   <tr>
+    <td class="blue">q</td>
+    <td></td>
+  </tr>
+   <tr>
+    <td class="blue">span	</td>
+    <td></td>
+  </tr>
+   <tr>
+    <td class="blue">strong</td>
+    <td></td>
+  </tr>
+   <tr>
+    <td class="blue">sub</td>
+    <td></td>
+  </tr>
+   <tr>
+    <td class="blue">sup</td>
+    <td></td>
+  </tr>
+   <tr>
+    <td class="blue">table的相关标签</td>
+    <td>colspan，height，rowspan，width</td>
+  </tr>
+</table>

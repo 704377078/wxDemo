@@ -1,0 +1,6 @@
+/* pages/form/picker.wxss */
+.section__title{
+  font-size: 12px;
+  background-color: #eee;
+  color: #555;
+}

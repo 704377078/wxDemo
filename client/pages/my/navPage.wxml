@@ -1,0 +1,4 @@
+<!--pages/my/navPage.wxml-->
+<view class='title'> 
+这里是导航的几种方式
+</view>

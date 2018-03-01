@@ -1,0 +1,24 @@
+<!--pages/my/formPage.wxml-->
+<view class='title'>
+  这里是表单
+</view>
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <view>
+    <button bindtap='showBtn'>button</button>
+  </view>
+  <view>
+    <button bindtap='showInput'>input</button>
+  </view>
+  <view>
+    <button bindtap='showRadio'>单选按钮、复选框</button>
+  </view>
+  <view>
+    <button bindtap='showPicker'>滚动选择器picker</button>
+  </view>
+  <view>
+    <button bindtap='showSlide'>滑动选择器slide</button>
+  </view>
+  <view>
+    <!-- <button bindtap='showElse'>其他</button> -->
+  </view>
+</form>

@@ -1,0 +1,28 @@
+<!--pages/form/inputAll.wxml-->
+<view style='background-color:#e3e89e;height:100%;position:absolute;top:0;right:0;bottom:0;left:0;'>
+  <view>
+    <view hover-class="list-title-hover"> 不同类型（type ）</view>
+    <view>
+      <input type="text" placeholder="文本输入键盘" />
+    </view>
+    <view>
+      <input type="number" placeholder="数字输入键盘" />
+    </view>
+    <view>
+      <input type="idcard" placeholder="身份证输入键盘" />
+    </view>
+    <view>
+      <input type="digit" placeholder="带小数点的数字键盘" />
+    </view>
+    <view>
+      <textarea placeholder="多行输入框,颜色设置为红色，自动变高，自动聚焦" placeholder-style="color:red;"  auto-focus auto-height/>
+    </view>
+  </view>
+
+  <view>
+    以上是输入框类型，还可以设置confirm-type，即当前输入框的键盘右下角按钮为发送、搜索、下一个、前往、完成，
+  </view>
+  <view>
+    input的触发类型和其他属性请参考https://mp.weixin.qq.com/debug/wxadoc/dev/component/input.html
+  </view>
+</view>

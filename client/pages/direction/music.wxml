@@ -1,0 +1,6 @@
+<!--pages/direction/music.wxml-->
+
+<audio poster="{{poster}}" name="{{name}}" author="{{author}}" src="{{src}}" id="myAudio" controls loop></audio>
+
+
+<button bindtap="audioStart">回到开头</button>

@@ -1,0 +1,10 @@
+<!--pages/direction/dicIndex.wxml-->
+<view class='title'>更多功能-第二页</view>
+<view class='list' wx:for="{{dataArry}}">
+  <view class='list-item'>
+    <view class='list-title' hover-class="list-title-hover" data-index="{{index}}" bindtap='showForm'>
+      {{item.title}}
+    </view>
+    <view> {{item.content}} </view>
+  </view>
+</view>

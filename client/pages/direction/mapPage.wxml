@@ -1,0 +1,13 @@
+<!-- pages/my/mapPage.wxml-->
+<!-- <view>
+  <input type="text" placeholder="文本输入键盘" class='map-input'/>
+   <button type='primary' size='mini' bindtap='search'>mini</button> 
+</view>
+
+<map id="map" longitude="{{data.longitude}}" latitude="{{data.latitude}}" bindtap="markertap" show-location
+style="width: 100%; height:400px;margin-top:-10px;"></map> -->
+
+
+     <!-- <map id="map" class='map' longitude="{{data.longitude}}" latitude="{{data.latitude}}" scale="16" polyline="{{true}}" bindcontroltap="controltap" show-location="{{true}}" style='width: 100%; height:400px;'></map>    -->
+   
+    <button type='primary' bindtap='positionMap'>定位到当前并打开内置地图</button>   

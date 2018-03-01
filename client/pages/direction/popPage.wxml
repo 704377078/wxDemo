@@ -1,0 +1,16 @@
+<!--pages/my/popPage.wxml-->
+<view bindtap='showToast'>
+  <button type='primary' size='default'>showToast</button>
+</view>
+<view bindtap='showLoading'>
+  <button type='primary' size='default'>showLoading</button>
+</view>
+<view bindtap='showModal'>
+  <button type='primary' size='default'>showModal</button>
+</view>
+<view bindtap='showActionSheet'>
+  <button type='primary' size='default'>showActionSheet</button>
+</view>
+<view bindtap='backIndex'>
+  <button>让我回去第一页</button>
+</view>

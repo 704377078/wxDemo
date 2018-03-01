@@ -1,0 +1,52 @@
+<!--pages/my/iconPage.wxml-->
+<view class='title'>
+  这里是自带图标icon的属性
+</view>
+
+<table class="table">
+  <tr>
+    <th>属性名</th>
+    <th>类型</th>
+    <th>默认值 </th>
+  </tr>
+  <tr>
+    <td class="blue">type</td>
+    <td>String</td>
+    <td></td>
+  </tr>
+   <tr>
+    <td class="blue">size</td>
+    <td>Number</td>
+    <td>23</td>
+  </tr>
+   <tr>
+    <td class="blue">color</td>
+    <td>Color</td>
+    <td></td>
+  </tr>
+</table>
+ <view><b>说明：</b> </view>
+<view> icon的类型，有效值： success_no_circle, success, info, warn, waiting, cancel, download, search, clear</view>
+<view>icon的颜色，同css的color</view>
+<view>icon的大小，单位px</view>
+
+<view class="group">
+  <block wx:for="{{iconSize}}">
+    <icon type="success" size="{{item}}" />
+  </block>
+</view>
+
+<view class="group">
+  <block wx:for="{{iconType}}">
+    <icon type="{{item}}" size="25" />
+  </block>
+</view>
+
+
+<view class="group">
+  <block wx:for="{{iconColor}}">
+    <icon type="success" size="25" color="{{item}}" />
+  </block>
+</view>
+
+  <image src="../../images/goahead.jpg" style='width:100px;height:100px;'></image>

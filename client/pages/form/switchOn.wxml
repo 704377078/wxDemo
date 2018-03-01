@@ -1,0 +1,35 @@
+<!--pages/form/switchOn.wxml-->
+<view>slider滑动选择器:</view>
+<view class="section section_gap">
+  <text class="section__title">设置最小/最大值</text>
+  <view class="body-view">
+    <slider bindchange="sliderchange" min="50" max="200" show-value/>
+  </view>
+</view>
+<view class="section section_gap">
+  <text class="section__title">设置step</text>
+  <view class="body-view">
+    <slider bindchange="sliderchange" step="5"/>
+  </view>
+</view>
+<view class="section section_gap">
+  <text class="section__title">显示当前value</text>
+  <view class="body-view">
+    <slider bindchange="sliderchange" value='10'/>
+  </view>
+</view>
+<view class="section section_gap">
+  <text class="section__title">颜色样式多样</text>
+  <view class="body-view">
+    <slider bindchange="sliderchange" min="50" max="200" show-value color="#555" selected-color="#2959e4" block-size="20" block-color="#d0d517"/>
+  </view>
+</view>
+<view>switch开关选择器:</view>
+<view class="body-view">
+    <switch checked bindchange="switchChange"/>
+    <switch bindchange="switchChange"/>
+    <switch checked bindchange="switchChange" color='#e44100'/>
+</view>
+
+<view>progress进度条:</view>
+<progress percent="20" show-info />

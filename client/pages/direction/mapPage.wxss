@@ -1,0 +1,9 @@
+/* pages/my/mapPage.wxss */
+.map-input{
+  width:60%;
+  height:30px;
+  float:left;
+  background-color:#eee;
+  padding:0 10px;
+  margin-right:10px;
+}

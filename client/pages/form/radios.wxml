@@ -1,0 +1,51 @@
+<!--pages/form/radios.wxml-->
+<view style='background-color:#e3e89e;height:100%;position:absolute;top:0;right:0;bottom:0;left:0;'>
+  <view>
+    <view hover-class="list-title-hover"> 不同类型（type ）</view>
+    <view>
+      <checkbox-group bindchange="checkboxChange">
+        <label class="checkbox" wx:for="{{items}}">
+          <checkbox value="{{item.name}}" checked="{{item.checked}}" />{{item.value}}
+        </label>
+      </checkbox-group>
+    </view>
+
+    <view>
+      <label class="checkbox">
+        <checkbox value="红色" color="red" checked='true' />红色
+      </label>
+      <label class="checkbox">
+        <checkbox value="蓝色" color='blue' checked='true' />蓝色
+      </label>
+      <label class="checkbox">
+        <checkbox value="蓝色" color='blue' disabled='true' checked='true' />蓝色禁用
+      </label>
+    </view>
+  </view>
+
+  <view>
+    checkbox-group:多项选择器，内部由多个checkbox组成，项发生改变是触发 change 事件
+  </view>
+
+  <view>
+    <radio-group class="radio-group" bindchange="checkboxChange">
+      <label class="radio" wx:for="{{items}}">
+        <radio value="{{item.name}}" checked="{{item.checked}}" />{{item.value}}
+      </label>
+    </radio-group>
+  </view>
+  <view>
+    <label class="checkbox">
+      <radio value="红色" color="red" checked='true' />红色
+    </label>
+    <label class="checkbox">
+      <radio value="蓝色" color='blue' />蓝色
+    </label>
+    <label class="checkbox">
+      <radio value="蓝色" color='blue' disabled='true' checked='true' />蓝色禁用
+    </label>
+  </view>
+  <view>
+  radio-group:单项选择器，内部由多个radio组成，项发生改变触发 change 事件
+  </view>
+</view>

@@ -1,0 +1,38 @@
+<!--pages/my/scrollIndex.wxml--> 
+
+<view class='title'>这里是小程序</view>
+
+
+<view class='list' wx:for="{{dataArry}}">
+  <view class='list-item'>
+    <view class='list-title' hover-class="list-title-hover" data-index="{{index}}" bindtap='showForm'>
+      {{item.title}}
+    </view>
+    <view> {{item.content}} </view>
+  </view>
+</view>
+<view class='list'>
+  <view>你的手机系统信息：</view>
+  <view>
+    手机品牌:{{systemInfo.brand}}
+  </view>
+  <view>
+    手机型号:{{systemInfo.model}}
+  </view>
+  <view>
+    屏幕宽度:{{systemInfo.screenWidth}}
+  </view>
+  <view>
+    屏幕高度:{{systemInfo.screenHeight}}
+  </view>
+  <view>
+    微信版本号:{{systemInfo.version}}
+  </view>
+  <view>
+    操作系统版本:{{systemInfo.system}}
+  </view>
+  <view>
+    客户端平台:{{systemInfo.platform}}
+  </view>
+</view>
+<button bindtap='totop'>点我置顶</button>
